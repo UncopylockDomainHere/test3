@@ -1,0 +1,36 @@
+menuDef {
+    name "nzp_cheats"
+    visible 0
+    fullscreen 0 
+    rect 200 100 240 300 
+    style 1
+    border 1
+
+    itemDef {
+        text "Enable Cheats"
+        type 1
+        rect 10 10 220 20
+        action { exec "sv_cheats 1" } 
+    }
+
+    itemDef {
+        text "God Mode"
+        type 1
+        rect 10 40 220 20
+        action { exec "god" }
+    }
+
+    itemDef {
+        text "Give All Ammo"
+        type 1
+        rect 10 70 220 20
+        action { exec "give ammo" }
+    }
+
+    itemDef {
+        text "No Clip"
+        type 1
+        rect 10 100 220 20
+        action { exec "noclip" }
+    }
+}
